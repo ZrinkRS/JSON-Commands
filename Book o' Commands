@@ -1,0 +1,8 @@
+/give @p minecraft:written_book 1 0 
+{display:{Lore:[The book with all the commands!]},title:"Book o' Commands",author:"ZrinkPlays",generation:3,pages:
+["{text:\"Give Command Block\",color:gold,bold:true,hoverEvent:{action:'show_text',
+value:\"Click to give yourself a command block!\"},clickEvent:{action:'run_command',value:
+\"/give @p command_block\"},extra:[{text:\"Day\",color:blue,bold:true,hoverEvent:{action:'show_text',value:
+\"Set the time to day!\"},clickEvent:{action:'run_command',value:\"/time set day\"}},
+{text:\"\nNight\",color:black,bold:true,hoverEvent:{action:'show_text',value:\"Set the time to night!\"},clickEvent:
+{action:'run_command',value:\"/time set night\"}}]}"]}
